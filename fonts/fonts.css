@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "MyriadPro-Light";
+    src: url("Myriad-Pro-Light.eot"); /* IE9 Compat Modes */
+    src: url("Myriad-Pro-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("Myriad-Pro-Light.ttf") format("truetype"); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url("Myriad-Pro.eot"); /* IE9 Compat Modes */
+    src: url("Myriad-Pro.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("Myriad-Pro.ttf") format("truetype"); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MyriadPro-Semibold";
+    src: url("Myriad-Pro-Semibold.eot"); /* IE9 Compat Modes */
+    src: url("Myriad-Pro-Semibold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("Myriad-Pro-Semibold.ttf") format("truetype"); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MyriadPro-Bold";
+    src: url("Myriad-Pro-Bold.eot"); /* IE9 Compat Modes */
+    src: url("Myriad-Pro-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("Myriad-Pro-Bold.ttf") format("truetype"); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+}
