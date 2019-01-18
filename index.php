@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -14,17 +14,6 @@
     <!-- Fonts CSS -->
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-
-    <!-- Owlcarousel CSS -->
-    <link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="libs/owlcarousel/owl.theme.default.min.css">
-
-    <!-- Fancybox CSS -->
-    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css">
-
-    <!-- jQueryFormStyler CSS -->
-    <link rel="stylesheet" href="libs/jQueryFormStyler/jquery.formstyler.css">
-    <link rel="stylesheet" href="libs/jQueryFormStyler/jquery.formstyler.theme.css">
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -333,7 +322,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-4 col-md-12">
                 <div class="contain-rate">
                     <div class="rate">
                         <div class="rate__text">
@@ -349,7 +338,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-8 col-md-12">
                 <div class="contain-social">
                     <div class="social__text">
                         Liked it Share in social networks:
@@ -379,11 +368,6 @@
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/popper.min.js"></script>
-<script src="js/maskedinput.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="libs/owlcarousel/owl.carousel.min.js"></script>
-<script src="libs/fancybox/jquery.fancybox.min.js"></script>
-<script src="libs/jQueryFormStyler/jquery.formstyler.min.js"></script>
-<script src="js/main.js"></script>
 </body>
 </html>
