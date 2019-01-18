@@ -45,6 +45,7 @@ html body {
     border-left: 1px solid #fff;
     padding-left: 43px;
     margin-top: 175px;
+    letter-spacing: 1.45px;
 }
 
 .slogan {
@@ -93,7 +94,7 @@ html body {
 
 .paternity__reading {
     display: flex;
-    margin-left: 45px;
+    margin-left: 63px;
 }
 
 .paternity__reading_icon {
@@ -115,7 +116,7 @@ html body {
 
 .paternity__views {
     display: flex;
-    margin-left: 50px;
+    margin-left: 58px;
 }
 
 .paternity__views_icon {
@@ -151,21 +152,18 @@ html body {
 }
 
 .date_day {
-    font-family: "MyriadPro-Semibold", sans-serif;
     font-size: 60px;
     color: rgba(255, 255, 255, 0.502);
     margin-right: 10px;
 }
 
 .date_month {
-    font-family: "MyriadPro-Light", sans-serif;
     font-size: 22px;
     color: rgba(255, 255, 255, 0.502);
     line-height: 1.1;
 }
 
 .date_year {
-    font-family: "MyriadPro-Light", sans-serif;
     font-size: 22px;
     color: rgba(255, 255, 255, 0.502);
     line-height: 1.1;
@@ -175,28 +173,30 @@ html body {
 /*END main section*/
 
 .contain-articles {
-    padding: 80px 0;
+    padding: 76px 0;
 }
 
 .articles h2 {
-    font-family: "MyriadPro-Bold", sans-serif;
     font-size: 25px;
     color: rgb(0, 0, 0);
     font-weight: bold;
     line-height: 1.2;
-    padding: 60px 0 60px 25px;
+    padding: 42px 0 47px 25px;
 }
 
 .articles h3 {
-    font-family: "MyriadPro-Bold", sans-serif;
     font-size: 20px;
     color: rgb(0, 0, 0);
     font-weight: bold;
     line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.articles h3.lit-h {
+    margin-top: 55px;
 }
 
 .articles h4 {
-    font-family: "MyriadPro-Bold", sans-serif;
     font-size: 16px;
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -204,7 +204,6 @@ html body {
 }
 
 .articles h5 {
-    font-family: "MyriadPro-Bold", sans-serif;
     font-size: 16px;
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -219,14 +218,12 @@ html body {
 }
 
 .articles p span {
-    font-family: "MyriadPro-Bold", sans-serif;
     font-size: 16px;
     color: #ac162c;
     line-height: 1.2;
 }
 
 .articles p span.imitation-h3 {
-    font-family: "MyriadPro-Bold", sans-serif;
     font-size: 20px;
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -234,39 +231,63 @@ html body {
 }
 
 .articles img {
-    padding: 25px 0;
+    padding: 30px 0 60px;
+}
+
+.articles ul {
+    margin-top: 57px;
+    margin-bottom: 34px;
 }
 
 .articles ul li {
     list-style-type: square;
     color: #ac162c;
     margin-left: -25px;
+    margin-bottom: 15px;
 }
 
 .articles ul span {
     font-size: 16px;
     color: rgb(0, 0, 0);
     line-height: 1.2;
-    padding-left: 22px;
 }
 
-.articles ul li.point-circle:before {
+.point-circle-ul {
+
+}
+
+.articles ul li.point-circle::before {
     content: url("../img/point-circle.svg");
     color: #ac162c;
-    margin-left: 0;
-    padding-left: 15px;
+    position: absolute;
+    left: 65px;
 }
 
 .articles ul li.point-circle {
     list-style-type: none;
+    margin-left: 35px;
 }
 
 
 /**/
-.col-md-4.contain-widget-align-r {
+.col-md-12.contain-article_information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contain-articles-align-l {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 0 8px;
+}
+
+.contain-widget-align-r {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    width: 30%;
 }
 
 .contain-widget {
@@ -275,13 +296,12 @@ html body {
     box-shadow: 0px 7px 14.4px 0.6px rgba(0, 0, 0, 0.08);
     width: 100%;
     height: auto;
-    padding: 50px;
-    margin: 60px 0;
+    padding: 50px 50px 25px;
+    margin: 60px 0 0;
     max-width: 292px;
 }
 
 .widget__head {
-    font-family: "MyriadPro-Semibold", sans-serif;
     font-size: 20px;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
@@ -300,7 +320,6 @@ html body {
 }
 
 .widget__menu ul li a {
-    font-family: "MyriadPro-Light", sans-serif;
     font-size: 16px;
     color: rgb(0, 0, 0);
     line-height: 1.2;
@@ -337,15 +356,18 @@ html body {
     margin-right: 15px;
 }
 
+.img-fluid.img-inf {
+    margin-top: -16px;
+    margin-bottom: -10px;
+}
+
 .news__text {
-    font-family: "MyriadPro-Light", sans-serif;
     font-size: 13px;
     color: rgb(0, 0, 0);
     line-height: 1.2;
 }
 
 .news__data {
-    font-family: "MyriadPro-Light", sans-serif;
     font-size: 13px;
     color: rgb(182, 182, 182);
     line-height: 1.2;
@@ -358,7 +380,6 @@ html body {
 
 .widget__tabs .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     background-color: transparent;
-    font-family: "MyriadPro-Semibold", sans-serif;
     font-size: 20px;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
@@ -367,7 +388,6 @@ html body {
 }
 
 .widget__tabs .nav-link {
-    font-family: "MyriadPro-Semibold", sans-serif;
     font-size: 20px;
     color: rgb(221, 221, 221);
     text-transform: uppercase;
@@ -400,7 +420,6 @@ html body {
 }
 
 .banner__text {
-    font-family: "MyriadPro-Regular", sans-serif;
     font-size: 18px;
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -411,7 +430,6 @@ html body {
 }
 
 .banner__link a {
-    font-family: "MyriadPro-Regular", sans-serif;
     font-size: 16px;
     font-weight: 700;
     color: rgb(205, 38, 56);
@@ -437,6 +455,7 @@ html body {
     font-weight: 700;
     color: rgb(44, 44, 44);
     margin-right: 22px;
+    letter-spacing: 1.15px;
 }
 
 .rate__star {
@@ -460,6 +479,7 @@ html body {
     font-weight: 700;
     color: rgb(44, 44, 44);
     margin-right: 22px;
+    letter-spacing: 1.15px;
 }
 
 .social__link {
@@ -479,7 +499,7 @@ html body {
     color: #000000;
     text-decoration: none;
     transition: ease-in 270ms;
-    margin: 0 13px;
+    margin: 0 10px;
 }
 
 .social__link_a a:hover {
